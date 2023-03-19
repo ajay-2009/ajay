@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        .header {
+            display: flex;
+            width: 100%;
+            height: 72px;
+            align-items:center;
+            justify-content: space-around;
+            margin:0px;
+            padding: 0;
+            border: 1px solid;
+        }
+
+        .header button {
+            position: relative;
+            /* left: 700px; */
+        }
+
+        .s2 {
+            display: flex;
+            gap: 16px;
+            
+        }
+
+        .login {
+            width: 100px;
+            height: 40px;
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: 12px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            cursor: grab;
+        }
+
+        .join {
+            width: 110px;
+            height: 40px;
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: 13px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            cursor: grab;
+        }
+
+
+        .img {
+            width: 100;
+            height: 50px;
+        }
+
+        header h1 {
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.7;
+            position: sticky;
+            margin-left: 150px;
+
+
+        }
+
+        header .p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.7;
+            font-size: 20px;
+            margin-top: -30px;
+            margin-left: 150px;
+        }
+
+        span {
+            color: rgb(9, 89, 89);
+        }
+
+        .div {
+            position: relative;
+            left: 150px;
+            width: 500px;
+            height: 45px;
+            /* bottom: 20px; */
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: large;
+            text-align: center;
+
+
+        }
+
+        .p1 {
+            margin-left: 160px;
+            margin-top: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            opacity: 0.5;
+        }
+
+        .btn {
+            position: relative;
+            left: 150px;
+            width: 500px;
+            height: 45px;
+            top: 10px;
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: 20px;
+            text-align: center;
+            background-color: rgb(37, 28, 28);
+            color: white;
+            cursor: grab;
+        }
+
+        .p2 {
+            position: relative;
+            left: 10.3%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: goldenrod;
+            font-size: 12px;
+            top: 10px;
+        }
+
+        .div1 h3 {
+            position: relative;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.7;
+            left: 150px;
+            top: 90px;
+        }
+
+        .div1 p {
+            position: relative;
+            /* font-size: 40px; */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.7;
+            font-size: 20px;
+            left: 150px;
+            top: 60px;
+        }
+
+        .div2 {
+            position: absolute;
+            left: 50%;
+            top: 30%;
+        }
+
+        .div3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 300px 300px;
+            gap: 40px;
+            cursor: grab;
+            background-color: white;
+            padding: 100px;
+        }
+
+        .div3 div {
+            background-color: whitesmoke;
+            text-align: center;
+            padding: 90px 10px;
+            font-size: 20px;
+            font-family: arial;
+            font-weight: bold;
+        }
+
+
+        .btn2 {
+            position: relative;
+            left: 90px;
+            width: 200px;
+            height: 45px;
+            bottom: 70px;
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: 20px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            cursor: grab;
+        }
+
+        .section1 img {
+            position: relative;
+            left: 150px;
+            width: 400px;
+            height: 400px;
+        }
+
+        main {
+            display: flex;
+            gap: 200px;
+            justify-content: center;
+        }
+
+        .section2 p {
+            font-weight: bold;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 0.8;
+        }
+
+        .section2 h2 {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+        }
+
+        .section2 h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            opacity: 0.6;
+        }
+
+        .section2 ul {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            opacity: 0.6;
+            line-height: 30px;
+
+        }
+
+        .btn3 {
+            position: relative;
+            width: 200px;
+            height: 45px;
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: 18px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            cursor: grab;
+        }
+
+        .div4 {
+            display: flex;
+            justify-content:center;
+        }
+
+
+
+
+        .a1 h2 {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            opacity: 0.8;
+        }
+
+        .a1 h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            opacity: 0.6;
+
+        }
+
+        .a1 ul { font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            line-height: 30px;
+        }
+
+        .btn4 {
+            position: relative;
+            width: 150px;
+            height: 45px;
+            border-radius: 9px;
+            opacity: 0.8;
+            font-size: 18px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            cursor: grab;
+        }
+
+        .div5 {
+            display: flex;
+            gap: 50px;
+            justify-content:center;
+            margin: 50px;
+            text-align:center;
+        }
+
+        .div5 h2 {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+            opacity: 0.8;
+
+        }
+
+
+        .div5 p {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .footer {
+            display: flex;  
+            justify-content:space-around;
+        }
+
+        .section3 img {
+            width: 200px;
+            height: 100px;
+        }
+
+        .section3 p {
+            margin: 0px;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            opacity: 0.7;
+    
+        }
+
+        .div6 img {
+            width: 200px;
+            height: 100px;
+            margin: 30px;    
+        }
+
+
+        .table1 {
+            text-align:justify;
+            /* line-height: 30px; */
+
+        }
+
+
+        .section4 th {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:justify;
+        }
+
+        .section4 td {
+            cursor: grab;
+            opacity: 0.6;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 40px;
+            font-weight: 400;
+            font-family: arial;
+        }
+
+        .section4 td:hover {
+            opacity: 1;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header" >
+        <section>
+            <img src="Unacademy_Logo.png" class="img" alt="logo">
+        </section>
+
+        <section class="s2">
+            <button type="button" class="login" name="Login">Login</button><br>
+            <button type="button" class="join" name="Login">join for free</button>
+        </section>
+
+    </div><br>
+
+    <header>
+        <form>
+
+            <h1>Crack your goal with <br>India’s top educators</h1>
+            <p class="p">Over <span> 8,00,000+ </span>learners trust us for their preparation</p>
+            <br>
+            <input type="text" placeholder="Enter your mobile number" class="div" name="mobile no" required>
+            <p class="p1">We will send an OTP on your number</p>
+            <button type="submit" class="btn" name="button">Join for free</button>
+            <p class="p2">GET 200 CREDITS ON SIGN UP '^'</p>
+            <div class="div1">
+                <h3>Select your goal / exam</h3>
+                <p> <span>200+</span> goals available in more than 30 categories</p><br>
+            </div><br><br>
+
+
+            <div class="div2"> <img src="home.svg" alt="flex img"></div><Br></Br>
+
+            <div class="div3">
+                <div> <img src="upsc.svg" alt="first"><br>UPSC CSE - GS</div>
+                <div> <img src="iit_jee.svg" alt="second"><br>IIT JEE</div>
+                <div> <img src="Third.svg" alt="Third"><BR>NEET UG</BR></div>
+                <div> <img src="forth.svg" alt="forth"><BR>BANKS EXAMS</BR></div>
+                <div> <img src="fifth.svg" alt="fifth"><BR>SSC JE & state AE exams</BR></div>
+                <div> <img src="six.svg" alt="six"><BR>CAT & other MBA<br> entrance tests</BR></div>
+                <div> <img src="seven.svg" alt="seven"><br>CBSC class 12</div>
+                <div> <img src="eight.svg" alt="eight"><br>CA Intermediate</div>
+            </div>
+
+            <button type="button" class="btn2">see all goals (200)+</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="section1">
+            <img src="UNacademy" alt="img">
+        </section>
+
+        <section class="section2">
+            <p>INTRODUCTION '^'</p>
+            <H2>Unacademy Centres for IIT <br>JEE and NEET UG </H2>
+            <h4>Admissions open in Kota, Delhi, Chandigarh,<br> Sikar, Indore and 20+ other cities!</h4>
+            <ul>
+                <li>Learn from top educators in your city</li>
+                <li>In-person classes & doubt solving</li>
+                <li>Bonus access to online learning</li>
+            </ul>
+            <form><button type="button" class="btn3">Find a centre</button></form>
+        </section>
+
+        
+    </main>
+
+    <div class="div4">
+        <article class="a1">
+          <h2>  Take a test and win up to 50% scholarship</h2>
+            <h4>The scholarship applies directly to your subscription</h4>
+           <ul>
+            <li>1.2K learners have won ₹2.5Cr worth of scholarships</li>
+        <li>15 quick questions</li>
+        <li>Just 15 min</li>
+        </ul>
+        <form><button type="button" class="btn4">Start text</button></form>
+
+        </article>
+
+        <article class="a2">
+            <img src="trophy.svg" alt="torphy img">
+        </article>
+    </div><br><br>
+
+    <div class="div5">
+        <section>
+            <img src="dailyliveclasses.svg" alt="daily class">
+            <h2>Daily live classes</h2>
+            <p>Chat with educators, ask questions, answer live <br>polls, and get your doubts cleared - all while the<br> class is going on</p>
+        </section>
+
+        <section>
+            <img src="syllabus.svg" alt="syllabus">
+            <h2>Practice and revise</h2>
+            <p>Learning isn't just limited to classes with our practice<br> section, mock tests and lecture notes shared as PDFs <br>for your revision</p>
+        </section>
+
+        <section>
+            <img src="learnanytimeanywhere.svg" alt="learnany time">
+            <h2>Learn anytime, anywhere</h2>
+            <p>One subscription gets you access to all our live and<br> recorded classes to watch from the comfort of any<br> of your devices</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <section class="section3">
+            <img src="Unacademy_Logo.png" alt="logo">
+            <p>Unacademy is democratising education, <br>making it accessible to all. Join the revolution,<br> learn on India's largest learning platform.</p>
+            <div class="div6">
+                <img src="app_store (1).avif" alt="apple store">
+            </div>
+            <h4>Reach out to us</h4>
+            <p>Get your questions answered about learning <Br>with Unacademy.</p><br>
+            <p>Call
+                +91 8585858585
+                </p>
+        </section>
+
+        <section class="section4">
+            <form>
+                <table class="table1">
+                    <tr>
+                    <th>Company</th>
+                    <th>Help & support</th>
+                    <th>Company</th>
+                </tr>
+                <tr>
+                    <td>About Us</td>
+                    <td>User Guidelines</td>
+                    <td>Learner app</td>
+                </tr>
+                <tr>
+                    <td>Shikshodaya</td>
+                    <td>Site Map</td>
+                    <td>Educator app</td>
+                </tr>
+                <tr>
+                    <td>Carrers</td>
+                    <td>Refund Policy</td>
+                    <td>Parent app</td>
+                </tr>
+                <tr>
+                    <td>Blogs</td>
+                    <td>Takedown Policy</td>
+                </tr>
+                <tr>
+                    <td>Privacy policy</td>
+                    <td>Grievance Redressal     </td>
+                </tr>
+                <tr>
+                    <td>Terms and conditions</td>
+                </tr>
+                </table>
+            </form><br>
+
+            <form>
+                <table>
+                    <tr>
+                        <th>Popular goals</th>
+                        <th>Unacademy Centre</th>
+                        <th>Study material</th>
+                    </tr>
+                    <tr>
+                        <td>IIT JEE</td>
+                        <td>Kota IIT JEE</td>
+                        <td>UPSC Study Material</td>
+                    </tr>
+                    <tr>
+                        <td>UPSC</td>
+                        <td>Kota NEET UG</td>
+                        <td>NEET UG study Material</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>kota Foundation</td>
+                        <td>CA Foundation Study Material</td>
+                    </tr>
+                    <tr>
+                    <td>CSIR UGC NET</td>
+                    <td>Delhi UPSC</td>
+                    <td>JEE Study Material</td>
+                </tr>
+                <tr>
+                    <td>NEET UG</td>
+                    <td></td>
+                    <td>SSC Study Material</td>
+                </tr>
+                </table>
+            </form>
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>

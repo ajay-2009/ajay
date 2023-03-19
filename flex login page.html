@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(bg-intro-desktop.png);
+            background-color: rgba(243, 7, 7, 0.5);
+            
+        }
+
+        .s1 {
+            position: relative;
+            top: 100px;
+        }
+        H1 {
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 900px;
+            font-size: 45px;
+            color: white;
+        }
+        .p1 {
+            font-family: Arial;
+            font-weight: 500;
+            line-height: 25px;
+            color: white;
+
+        }
+
+        .s2 .grid {
+            background-color: white;
+            width: 300px;
+            border-radius: 10px;
+            /* height: 400px; */
+        }
+
+        header {
+           
+            display: flex;
+            justify-content:center;
+            gap: 30px;
+
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 200px;
+            grid-template-rows: 30px 30px 30px 30px;
+            padding: 20px;
+        
+            
+        }
+
+        div  { display: grid;
+            grid-template-columns: 250px;
+            grid-template-rows: 30px;
+            gap: 20px;
+            margin: 20px;
+            color: black;
+            
+            
+        }
+
+        input {
+            border-radius: 4px;
+        }
+
+        .free {
+            position: relative;
+            left: 20px;
+            border: 1px solid ;
+            width: 340px;
+            height: 40px;
+            border-radius: 10px;
+            cursor: grab;
+            font-size: 14px;
+            gap: 20px;
+            background-color: #02a3f989;
+            color: white;
+            padding: 0px
+            
+        }
+        .free1 {
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(86, 224, 86);
+            cursor: grab;
+            border: 1px solid white;
+        }
+            
+        
+        .p2 {
+            position: relative;
+            bottom: 50px;
+            font-size: 10px;
+            text-align:center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 0.8;
+        }
+
+        span {
+            color: red;
+            font-weight: bold;
+        }
+
+
+        .s2 {
+            position: relative;
+            top: 100px;
+        }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+
+    <section class="s1">
+    <H1>Learn to code by<br> watching others</H1>
+    <P class="p1"> See how experienced developers solve problems in real-time.<Br> Watching scripted tutorials is
+     great, but understanding how<br> developers think is invaluable.</P>
+</section>
+
+    <section class="s2">
+        <button type="submit" class="free">Try it free 7 days then $20/mo.
+            thereafter</button>
+
+            <div class="grid">
+                <div><input type="text" name="fname" placeholder="First Name" required></div>
+                <div><input type="text" name="lname" placeholder="Last Name" required></div>
+                <div><input type="text" name="eaddress" placeholder="Email Address" required></div>
+                <div><input type="text" name="pword" placeholder="Password" required></div>
+                <div><button type="submit" class="free1"> CLAIM YOUR FREE TRIAL</button></div>
+            </div>
+            
+
+            <P class="p2"> By clicking the button, 
+                you are agreeing to our <span>Terms and Services</span></P>
+            
+    </section>
+</header>
+    
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+
+        body {
+            position: absolute;
+            left: 300px;
+            top: 100px;
+
+        }
+        
+        header {
+            display: flex;
+            /* background-color:wheat; */
+            
+        }
+
+        img {
+            width: 300px;
+            height: 400px;
+            border-radius: 20px 0px 0px 20px;
+        }
+
+        h1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+        
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .s2 {
+            padding: 20px;
+            background-color: wheat;
+            border-radius: 0px 20px 20px 0px;
+        }
+
+        .s2 p {
+            text-decoration:line-through;
+        }
+
+        h4 {
+            font-family: Arial;
+            opacity: 0.6;
+        }
+
+        pre {
+            letter-spacing: 10px;
+        }
+
+        .payment-btn {
+            position: relative;
+            left: 30px;
+            top: 10px;
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            cursor: grab;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            /* text-align: right; */
+
+        }
+
+        .payment-btn:hover {
+            transition: left 1s , top 1s ;
+            left: 25px;
+            top: 5px;
+        }
+
+        span {
+            color: rgb(80, 127, 157);
+        }
+
+        button {
+            background-color:  rgb(80, 127, 157);
+            color: white;
+        }
+
+    
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="image-product-desktop.jpg" alt="desktop">
+        </section>
+
+        <section class="s2">
+            <pre>PERFUME</pre>
+            <h1>Gabrielle<br> Essence Eau <br>De Parfum</h1>
+            <h4>A Floralk, solar and voluptuous <br>interpretation composed by <br>Olivier Polge, Perfumer-Creator<br> for the House of CHANEL.</h4>
+            <div>
+               <span> <h1>$149.99</h1></span>
+                <p>$169.99</p>
+            </div>
+    
+            <div class="div3">
+                
+                <button type="submit" class="payment-btn" name="cart"><i class="fa-solid fa-cart-shopping"></i> Add with Cart </button>
+            </div>
+        
+        
+        </section>
+    </header>
+    
+    
+</body>
+</html>
